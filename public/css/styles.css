@@ -1,0 +1,140 @@
+body{
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+.box{
+    width: 1050px;
+    height: 600px;
+    border-radius: 10px;
+    background-color: white;
+    border-style: solid;
+}
+.header{
+    width:1046px;
+    height:200px;
+    border-radius: 10px;
+    background-color: #937272;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+.heading{
+    font-size:45px;
+    font-weight:600;
+}
+.subHeading{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 600;
+}
+.image{
+    width: 90px;
+    height: 60px;
+    object-fit: contain;
+    position: relative;
+    left: 470px;
+    top: -115px;
+    background-color: white;
+}
+.firm{
+    position: relative;
+    left: 7px;
+    top:-30px;
+}
+.contact{
+    position: relative;
+    left: 885px;
+    top: -85px;
+}
+.contact2{
+    position: relative;
+    left: 935px;
+    top: -85px; 
+}
+
+
+
+/* THIS IS FOR SECOND PART */
+
+
+
+.exceptHeading{
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 600;
+}
+.vehicle{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.paidImage{
+    width: 90px;
+    height: 80px;
+    object-fit: contain;
+    position: relative;
+    left:480px;
+    top: -70px;
+    
+}
+.supplier{
+    position: relative;
+    left: 800px;
+    top: -140px;
+}
+.wide-line{
+    height: 2px; /* Adjust line thickness */
+    background-color:black; /* Change line color */
+    position: relative;
+    top: -110px;
+}
+
+/* THIS IS FOR LAST PART */
+
+
+.icons{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.loadedTruck{
+    position: relative;
+    top: -125px;
+    left: 30px;
+}
+.emptyTruck{
+    position: relative;
+    left: -15px;
+    top: -80px;
+}
+.load{
+    position: relative;
+    left:-60px;
+    top: -30px;
+}
+.weight{
+    position: relative;
+    top: -150px;
+    left:80px;
+}
+.dates{
+    position: relative;
+    top: -270px;
+    left: 450px;
+}
+.times{
+    position:relative;
+    top:-345px;
+    left:800px;
+}
+.thankNote{
+     position: relative;
+     top: -230px;
+     left: 0px;
+}
+.operatorSign{
+    position: relative;
+    top: -330px;
+    left:800px;
+}
