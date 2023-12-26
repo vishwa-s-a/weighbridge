@@ -71,7 +71,7 @@ app.post('/', (req, res) => {
       
       </head>
       
-      <body>
+      <body style="-webkit-print-color-adjust: exact">
           <div class="box mt-2 m-auto">
               <div class="header">
                   <div class="text-center">
@@ -80,10 +80,8 @@ app.post('/', (req, res) => {
                       <h6 class="subHeading">ILKAL-587125</h6>
                       <img src="/images/Essae-HR-Logo.png" alt="logo" class="image">
                   </div>
-                  <!-- <img src="Essae-HR-Logo.png" alt="logo" class="image"> -->
                   <div class="firm">
-                      <h6 class="subHeading mb-1">APPAJI ENTERPRISES</h6>
-                      <H6 class="subHeading">GSTIN: 29ADZPA6323Q1ZP</H6>
+                        <img src="/images/qrcode.png" alt="qrcode"class="qrcode">
                   </div>
                   <div class="contact">
                       <h6 class="subHeading mb-1">MOB:9448137893</h6>
@@ -132,22 +130,6 @@ app.post('/', (req, res) => {
                       <h6 class="exceptHeading">Operator Sign</h6>
                   </div>
               </div>
-          </div>
-          <div class="text-center">
-              <div class="row ">
-                  <div class="col ">
-                      <!-- Print button -->
-                      <button id="printButton" class="btn btn-primary" style="margin-top: 90px;">Print</button>
-                  </div>
-                  <div class="col">
-                      <a href="/" class="btn btn-primary" style="margin-top: 90px;">Home</a>
-                  </div>
-              </div>
-              <script>
-                  document.getElementById('printButton').addEventListener('click', () => {
-                      window.print(); // Trigger browser's print functionality
-                  });
-              </script>
           </div>
           <script src="/js/bootstrap.bundle.min.js"></script>
       </body>

@@ -1,6 +1,6 @@
 body{
     overflow-x: hidden;
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
 }
 .box{
     width: 1050px;
@@ -35,20 +35,23 @@ body{
     top: -115px;
     background-color: white;
 }
-.firm{
+.qrcode{
     position: relative;
-    left: 7px;
-    top:-30px;
+    width: 90px;
+    height: 80px;
+    object-fit: contain;
+    left: 0px;
+    top:-70px;
 }
 .contact{
     position: relative;
     left: 885px;
-    top: -85px;
+    top: -105px;
 }
 .contact2{
     position: relative;
-    left: 935px;
-    top: -85px; 
+    left: 934px;
+    top: -109px; 
 }
 
 
